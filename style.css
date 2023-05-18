@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'page';
+}
+@font-face {
+    font-family: 'header';
+    src: url('Millik.otf');
+}
+@font-face {
+    font-family: 'page';
+    src: url('Moderat-Extended-Thin.ttf');
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 86px 0;
+}
+.nav label{
+    font-size: 30px;
+    color: rgb(54, 54, 121);
+    font-weight: bold;
+}
+.links ul{
+    display: flex;
+    line-height: 40px;
+}
+.links ul li{
+    padding: 0 20px;
+}
+.links ul li a{
+    color: rgb(54, 54, 121);
+    font-family: sans-serif;
+}
+.links ul li a:hover{
+    cursor: pointer;
+    color: rgb(76, 130, 211);
+}
+.signin button{
+    color: #000000;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border:none;
+    padding: 12px 24px;
+}
+.cta{
+    margin-left: 86px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.cta h1{
+    margin-right: 30%;
+    font-size: 7rem;
+    margin-bottom: 60px;
+    line-height: 108px;
+    font-weight: light;
+    font-family: 'header';
+}
+h1 span{
+    color: orange;
+    font-weight: lighter;
+    font-family: 'header';
+}
+.cta p{
+    margin-right: 50%;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+.btn{
+    display: flex;
+}
+.btn1 button{
+    color: white;
+    padding: 15px 24px;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+    margin-right: 20px;
+}
+.btn2 button{
+    color: #000000;
+    padding: 15px 24px;
+    background-color: #eeeeee;
+    border-radius: 6px;
+    border: none;
+}
+.pics{
+    margin-left: 86px;
+}
+.pic1 img{
+    position: relative;
+    height: 600px;
+    float: left;
+    margin-top: 120px;
+}
+.pic2 img{
+    margin-top: -56px;
+    position: relative;
+    height: 600px;
+    float: right;
+}
+.pics p{
+    margin-top: -150px;
+    float: right;
+    font-size: 22px;
+    font-weight: light;
+    margin-left: 59.5%;
+}
+.spons{
+    margin-bottom: 100px;
+}
+.spons img{
+    margin-top: 100px;
+}
+.text h1{
+    font-size: 7rem;
+    font-weight: bold;
+    margin-right: 50%;
+    font-family: 'header';
+    margin-left: 86px;
+    font-weight: lighter;
+    line-height: 108px;
+    letter-spacing: 1px;
+}
+.text h1 span{
+    color: orange;
+    font-family: 'header';
+    font-weight: lighter;
+    line-height: 108px;
+    letter-spacing: 1px;
+}
